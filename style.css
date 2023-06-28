@@ -1,0 +1,141 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+
+.background{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),url(./img/img2.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+   
+    
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.cabeçalho-link a{
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.cabeçalho-link a:hover{
+    color:  #000000;
+    transition: 0.3s all;
+}
+
+.logo i{
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+button{
+    color: #ffffff;
+    background: transparent;
+    border:solid 1px #FF0000;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.text h1{
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #FF0000;
+    font-size: 20; 
+}
+
+.text p{
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 21px;
+    font-size: 30px;
+}
+
+.redes-social{
+    margin-top: 35px;
+}
+
+.redes-social a{
+    color: #FF0000;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
